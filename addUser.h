@@ -6,3 +6,5 @@
 #define UNTITLED_ADDUSER_H
 
 #endif //UNTITLED_ADDUSER_H
+void addUser();
+void createob();

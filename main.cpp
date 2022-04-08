@@ -1,15 +1,32 @@
 #include <iostream>
 #include <string>
+#include <Windows.h>
+#include <vector>
+
 
 using namespace std;
-class Hello{
+/*enum bills{DOLLARS,GRIVNA,EVRO};
+class bank{
+private:
+    string name;
+    string secName;
+    int score;
+    bills bill;
 public:
-    string Hello;
-    int day;
-};
+    bank(string a,string b,int c,bills d){
+       name = a;
+       secName = b;
+       score = c;
+       bill = d;
+    }
+};*/
 int main() {
-    Hello privet;
-    privet.Hello = "Hi";
-    privet.day = 5;
-    cout << privet.Hello << privet.day << endl;
+    system("chcp 65001");
+    SetConsoleOutputCP(CP_UTF8);
+    //bank user1("name","secname",554,DOLLARS);
+    vector<int> array {1, 2, 3};
+    cout << "Состояние вектора: " << endl;
+    for (int i = 0; i < array.size(); ++i) {
+        cout << "Элемент " << i + 1 << ": " << array[i];
+    }
 }
