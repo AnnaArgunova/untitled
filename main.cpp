@@ -2,31 +2,34 @@
 #include <string>
 #include <Windows.h>
 #include <vector>
+#include "menuOptions.h"
+#include "menuOptions.cpp"
 
-
-using namespace std;
-/*enum bills{DOLLARS,GRIVNA,EVRO};
+enum bills{DOLLARS,GRIVNA,EVRO};
 class bank{
-private:
+public:
     string name;
     string secName;
     int score;
     bills bill;
-public:
-    bank(string a,string b,int c,bills d){
-       name = a;
-       secName = b;
-       score = c;
-       bill = d;
+};
+void showMenu()
+{
+    int act ;
+    cout << "=============Меню=============" << endl;
+    cout << "1 - Добавить пользователя" << endl;
+    cout << "==============================" << endl;
+    cout << "0 - Закончить выполнение" << endl;
+    cout << "==============================" << endl;
+    cin >> act;
+    switch (act) {
+        case 1:
+            addUser();
     }
-};*/
+}
 int main() {
-    system("chcp 65001");
-    SetConsoleOutputCP(CP_UTF8);
-    //bank user1("name","secname",554,DOLLARS);
-    vector<int> array {1, 2, 3};
-    cout << "Состояние вектора: " << endl;
-    for (int i = 0; i < array.size(); ++i) {
-        cout << "Элемент " << i + 1 << ": " << array[i];
-    }
+    int count = 1;
+    //bank ob1("gara","gth", 555,DOLLARS);
+    vector<bank> users;
+
 }

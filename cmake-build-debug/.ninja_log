@@ -1,9 +1,18 @@
 # ninja log v5
-5	1071	6705852423356227	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
-1072	1297	6705852425543245	untitled.exe	832fac3752074f9a
-13	277	6705905096364225	CMakeFiles/untitled.dir/addUser.cpp.obj	1fbdbbafafaa8a4e
-9	4202	6705905135729984	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
-4205	4856	6705905142290972	untitled.exe	3931939ce8567ba0
+7	3193	6711169053771770	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
+3193	3357	6711169055327609	untitled.exe	3931939ce8567ba0
 12	1806	6711161020818509	CMakeFiles/untitled.dir/addUser.cpp.obj	1fbdbbafafaa8a4e
-8	5024	6711161053341669	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
-5024	5303	6711161055605594	untitled.exe	3931939ce8567ba0
+1	368	6711182291082335	build.ninja	1985ad3999a57f6f
+8	334	6711182294675252	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+6	3812	6711182329667008	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
+3812	4045	6711182332010239	untitled.exe	81b02b118568f1fd
+11	4507	6711346122280494	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
+19	4540	6711346122460007	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+17	5173	6711348441768333	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
+14	5300	6711348443154653	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+10	3773	6711352029502130	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+6	3816	6711352029814528	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
+9	3532	6711353439949185	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+11	3353	6711354155584182	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+11	3450	6711878515224049	CMakeFiles/untitled.dir/menuOptions.cpp.obj	300ae723e8ae23c9
+5	3475	6711878515692714	CMakeFiles/untitled.dir/main.cpp.obj	1ab8832a9d8d9d22
