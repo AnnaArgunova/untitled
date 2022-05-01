@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp menuOptions.cpp menuOptions.h)
+add_executable(untitled main.cpp menuOptions.h menuOptions.cpp)
